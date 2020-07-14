@@ -1,0 +1,31 @@
+.big-banner {
+    background-image: url('../../img/header.png');
+    height: auto;
+    /* border-bottom-left-radius: 5%;
+    border-bottom-right-radius:5% ; */
+}
+.first-row {
+    padding-top: 200px;
+}
+.timer {
+    background-color: #ffffff;
+    width: 280px;
+    height: 150px;
+    margin: 10px;
+}
+.intro-title {
+    color: #ffffff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 54px;
+}
+.intro-para {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E0E0E0;
+}
