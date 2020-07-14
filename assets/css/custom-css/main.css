@@ -95,10 +95,18 @@
 
 }
 @media (max-width: 768px) {
+    .first-row {
+        padding-top: 100px;
+    }
     .header-img {
         width: 360px;
     }
     .email-btn {
         margin-top: 10px;
+    }
+    .timer-row {
+        width: auto;
+        margin: 0 auto;
+        padding-bottom: 40px;
     }
 }
