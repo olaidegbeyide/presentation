@@ -57,6 +57,10 @@
     border: 1px solid #ffffff;
     border-radius: 2px;
     padding: 8px;
+
+}
+::placeholder {
+    color: #ffffff;
 }
 .email-btn {
     background-color: #ffffff;
@@ -90,7 +94,6 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    /* width: 300px; */
     line-height: 24px;
 
 }
@@ -99,7 +102,7 @@
         padding-top: 100px;
     }
     .header-img {
-        width: 360px;
+        width: 310px;
     }
     .email-btn {
         margin-top: 10px;
@@ -108,5 +111,17 @@
         width: auto;
         margin: 0 auto;
         padding-bottom: 40px;
+    }
+    .timer h1 {
+        font-size: 34px;
+        
+    }
+    .timer p {
+        font-size: 12px;
+        line-height: 15px;
+        padding-right: 10px;
+    }
+    .features-img {
+        width: 300px;
     }
 }
