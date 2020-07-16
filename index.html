@@ -24,9 +24,9 @@
                         to get on early access list to get access to
                          in app perks only available to our early subscribers.</p>
                     <div>
-                        <form action="">
-                            <input type="email" class="form-input email-input" placeholder="Email Address..." >
-                            <button class="btn email-btn mt-1">Join Waiting List</button>
+                        <form action="email.php" method="POST">
+                            <input type="email" name="email" class="form-input email-input" placeholder="Email Address..." >
+                            <button class="btn email-btn mt-sm-3 mt-lg-3 mt-xl-0" name="submit">Join Waiting List</button>
                         </form>
                     </div>
                     
@@ -62,28 +62,24 @@
 
     <section class="page-section">
         <div class="container">
-            <h3 class="text-center pt-5" style="font-weight: bolder;">Software Features Include</h3>
+            <h3 class="text-center pt-5 font-weight-bold">Software Features Include</h3>
             <div class="row pt-5">
                 <div class="col-lg-4 col-sm-12">
                     <p class="features-title">Present everywhere, online</p>
                     <p class="features-para">cloud-based software lets you create, collaborate, and share around the world.</p>
+                    
+                    <p class="features-title pt-md-5">3d presentation</p>
+                    <p class="features-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Tristique eleifend viverra at mattis.</p>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-12 col-md-4 col-lg-4">
                     <img src="assets/img/Usability testing-pana 1.png" alt="" class="features-img">
                 </div>
                 <div class="col-lg-4 col-sm-12">
                     <p class="features-title">Hologram interaction </p>
                     <p class="features-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique eleifend viverra at mattis.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-sm-12">
-                    <p class="features-title">3d presentation</p>
-                    <p class="features-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Tristique eleifend viverra at mattis.</p>
-                </div>
-                <div class="col-lg-6 col-sm-12">
-                    <p class="features-title">Ease of Use</p>
+                    
+                    <p class="features-title pt-md-5">Ease of Use</p>
                     <p class="features-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                          Tristique eleifend viverra at mattis. </p>
                 </div>
