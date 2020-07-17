@@ -18,7 +18,8 @@
             <div class="row first-row" >
                 <div class="col-lg-6 col-md-6 col-sm-12 intro" data-aos="fade-up-right">
                     <h3 class="intro-title">Introducing the first ever 3d presentation software</h3>
-                    <p class="intro-para">An App that lets you present your 3D models on the go.</p>
+                    <p class="intro-para">This gives you a platform for making animation video presentation with 3D effects. 
+                        Without writing one single code, everyone including you is able to make and publish a stunning presentation to amaze your audiences.</p>
                     <p class="intro-para">Sign Up with your email to get notified 
                         to get on early access list to get access to
                          in app perks only available to our early subscribers.</p>
@@ -65,19 +66,17 @@
                     <p class="features-para">cloud-based software lets you create, collaborate, and share around the world.</p>
                     
                     <p class="features-title pt-md-5">3d presentation</p>
-                    <p class="features-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Tristique eleifend viverra at mattis.</p>
+                    <p class="features-para"> 3rd demention interaction with futuristic presentation performance</p>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4" data-aos="fade-down">
                     <img src="assets/img/Usability testing-pana 1.png" alt="" class="features-img">
                 </div>
                 <div class="col-lg-4 col-sm-12" data-aos="fade-down">
                     <p class="features-title">Hologram interaction </p>
-                    <p class="features-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique eleifend viverra at mattis.</p>
+                    <p class="features-para">Create and interact with hologram projections with your smartphone.</p>
                     
                     <p class="features-title pt-md-5">Ease of Use</p>
-                    <p class="features-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Tristique eleifend viverra at mattis. </p>
+                    <p class="features-para">With step by step tutorials this platform is easy to use and helps make presenting easy</p>
                 </div>
             </div>
         </div>
@@ -117,7 +116,7 @@
                          <div>
                         <form action="process.php" method="POST" >
                             <input type="email" name="email" class="form-input footer-input" placeholder="Email Address..." style="border:1px solid #1E55EB;">
-                            <button type="submit" class="btn footer-btn mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0" name="submit">Join Waiting List</button>
+                            <button type="submit" class="btn footer-btn mt-sm-4 mt-md-0 mt-lg-0 mt-xl-0" name="submit">Join Waiting List</button>
                         </form>
                     </div>
                 </div>
