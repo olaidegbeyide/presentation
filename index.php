@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="assets/css/bootstrap-css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/custom-css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <title>Presentation</title>
 </head>
 <body>
@@ -23,10 +27,10 @@
                     <p class="intro-para">Sign Up with your email to get notified 
                         to get on early access list to get access to
                          in app perks only available to our early subscribers.</p>
-                    <div>
-                        <form action="email.php" method="POST">
+                    <div class= "first-form">
+                        <form action="process.php" method="POST">
                             <input type="email" name="email" class="form-input email-input" placeholder="Email Address..." >
-                            <button class="btn email-btn mt-sm-3 mt-lg-3 mt-xl-0" name="submit">Join Waiting List</button>
+                            <button type="submit" class="btn email-btn mt-sm-3 mt-lg-3 mt-xl-0" name="submit">Join Waiting List</button>
                         </form>
                     </div>
                     
@@ -87,12 +91,84 @@
         </div>
     </section>
 
+    <section class="page-section pt-5" >
+        <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="assets/img/iphone.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/screen.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/iphone.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/screen.png" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/iphone.png" alt=""></div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+       
+    </div>
+    </section>
 
+    <section class="page-section" style=" background-color: #407BFF;">
+        <div class="container">
+            <h2 class="text-center pt-5 text-white font-size-16px">Watch The Overview</h2>
+            <div class="row overview">
+                <div class="col">
+                     <img class="pt-4"src="assets/img/model.jpg" alt="" style=" width:90%; height:500px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section footer">
+        <div class="container notif">
+            <div class="row notify">
+                <div class="col">
+                    <h3 class="text-center pt-5">Get Notified</h3>
+                    <p class="text-center second-form">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Ipsum donec risus pellentesque sed elementum sed nisi nec a.</p>
+                         <div>
+                        <form action="process.php" method="POST">
+                            <input type="email" name="email" class="form-input email-input" placeholder="Email Address..." style="border:1px solid #1E55EB;">
+                            <button type="submit" class="btn email-btn mt-sm-3 mt-lg-3 mt-xl-0 bg-primary text-white" name="submit">Join Waiting List</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-</body>
+    <script>
+    var mySwiper = new Swiper('.swiper-container', {
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+
+})
+
+    </script>
+   </body>
 </html>
